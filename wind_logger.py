@@ -10,20 +10,31 @@ plume is likely being carried towards, based on wind direction.
 IMPORTANT - what this is and isn't:
 - This is MODELLED wind (UK Met Office UKV 2km model via Open-Meteo), not
   a physical anemometer reading at the site. Treat it as indicative.
-- Wind direction is unreliable at low wind speeds. Hours below
-  CALM_THRESHOLD_MS are flagged "calm" rather than assigned a downwind
-  receptor.
+- Two heights are logged and flagged SEPARATELY: 10m and 100m. The main
+  EfW stack is 70m tall with a hot (130C), high-velocity (15m/s) exit
+  (ES Table 10.15) - a buoyant plume like this rises well above the
+  physical stack top before it starts travelling downwind, so the wind
+  at 100m is a closer proxy for actual plume transport than the 10m
+  reading, which is dominated by ground friction and local terrain.
+  Don't just look at the 10m columns - the 100m ones are arguably the
+  more physically relevant pair for this stack.
+- Wind direction is unreliable at low wind speeds. Calm is judged
+  separately per height (a common pattern is 10m calm while 100m still
+  has a clear, usable direction, since ground friction affects the
+  surface far more than 100m up). Calm hours for a given height get no
+  downwind receptor assigned for that height, rather than an unreliable
+  guess.
 - Being "downwind" of the stack is not the same as receiving a harmful
   concentration - that depends on plume rise, atmospheric stability and
   dilution, which this script does not model. Straight-line distance is
-  now included alongside each flagged receptor as a rough proxy for
-  dilution (further = more diluted, all else equal), but it is not a
-  substitute for actual dispersion modelling. Use this as a screening
-  indicator to prioritise which emissions events are worth closer
-  scrutiny, not as a standalone exposure claim.
-- Villages listed in receptors.json under "villages" have approximate,
-  unverified coordinates. Verify before treating any single village's
-  flag as reliable (see receptors.json _readme).
+  included alongside each flagged receptor as a rough proxy for dilution
+  (further = more diluted, all else equal), but it is not a substitute
+  for actual dispersion modelling. Use this as a screening indicator to
+  prioritise which emissions events are worth closer scrutiny, not as a
+  standalone exposure claim.
+- receptors.json documents the provenance of every bearing/coordinate
+  used - check it before treating any flag as more precise than its
+  source actually supports.
 
 Usage:
     python wind_logger.py
@@ -63,8 +74,10 @@ CSV_FIELDS = [
     "wind_speed_ms_100m",
     "model",
     "calm_flag",
-    "plume_bearing_deg",
-    "likely_downwind_receptors",
+    "plume_bearing_deg_10m",
+    "likely_downwind_receptors_10m",
+    "plume_bearing_deg_100m",
+    "likely_downwind_receptors_100m",
 ]
 
 
@@ -200,21 +213,33 @@ def main():
         if wd10 is None or ws10 is None:
             continue
 
-        calm = ws10 < CALM_THRESHOLD_MS
-        plume_bearing = (wd10 + 180) % 360
+        # Calm is judged separately per height - surface wind (10m) is far
+        # more affected by ground friction than 100m, so it's common for
+        # 10m to be calm while 100m (closer to the plume's actual transport
+        # height, given this stack's height and buoyant, hot exit - see
+        # module docstring) still has a clear, usable direction.
+        calm_10m = ws10 < CALM_THRESHOLD_MS
+        calm_100m = (ws100 is None) or (ws100 < CALM_THRESHOLD_MS)
 
-        downwind = []
-        if not calm:
-            for r in receptors:
-                if angular_diff(plume_bearing, r["bearing_deg"]) <= SECTOR_TOLERANCE_DEG:
-                    downwind.append(r)
+        plume_bearing_10m = (wd10 + 180) % 360
+        plume_bearing_100m = (wd100 + 180) % 360 if wd100 is not None else None
+
+        def find_downwind(plume_bearing):
+            if plume_bearing is None:
+                return []
+            hits = [r for r in receptors
+                    if angular_diff(plume_bearing, r["bearing_deg"]) <= SECTOR_TOLERANCE_DEG]
             # Nearest first - most relevant for real-world dilution/impact reasoning
-            downwind.sort(key=lambda r: r["distance_m"] if r["distance_m"] is not None else float("inf"))
+            hits.sort(key=lambda r: r["distance_m"] if r["distance_m"] is not None else float("inf"))
+            return hits
 
         def format_receptor(r):
             if r["distance_m"] is not None:
                 return f"{r['name']} ({r['distance_m']/1000:.1f}km)"
             return r["name"]
+
+        downwind_10m = [] if calm_10m else find_downwind(plume_bearing_10m)
+        downwind_100m = [] if calm_100m else find_downwind(plume_bearing_100m)
 
         new_rows.append({
             "timestamp_utc": ts,
@@ -223,9 +248,11 @@ def main():
             "wind_from_deg_100m": wd100,
             "wind_speed_ms_100m": ws100,
             "model": model_used,
-            "calm_flag": calm,
-            "plume_bearing_deg": round(plume_bearing, 1),
-            "likely_downwind_receptors": ";".join(format_receptor(r) for r in downwind) if downwind else "",
+            "calm_flag": calm_10m,
+            "plume_bearing_deg_10m": round(plume_bearing_10m, 1),
+            "likely_downwind_receptors_10m": ";".join(format_receptor(r) for r in downwind_10m) if downwind_10m else "",
+            "plume_bearing_deg_100m": round(plume_bearing_100m, 1) if plume_bearing_100m is not None else "",
+            "likely_downwind_receptors_100m": ";".join(format_receptor(r) for r in downwind_100m) if downwind_100m else "",
         })
 
     if new_rows:
