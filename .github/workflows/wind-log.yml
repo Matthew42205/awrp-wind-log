@@ -1,0 +1,38 @@
+yaml
+name: Wind logger
+
+on:
+  schedule:
+    # Runs at 5 minutes past every hour (UTC). Offset from :00 to give
+    # Open-Meteo's model output time to land for the hour that just ended.
+    - cron: "5 * * * *"
+  workflow_dispatch: {}   # allows manual "Run workflow" trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  log-wind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run wind logger
+        run: python wind_logger.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "wind-logger-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add wind_log.csv
+          git diff --cached --quiet || git commit -m "Log wind data $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git push
