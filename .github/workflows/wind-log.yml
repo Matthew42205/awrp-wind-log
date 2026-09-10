@@ -2,8 +2,17 @@ name: Wind logger
 
 on:
   schedule:
+    # Runs at 5 minutes past every hour (UTC). Offset from :00 to give
+    # Open-Meteo's model output time to land for the hour that just ended.
     - cron: "5 * * * *"
-  workflow_dispatch: {}
+  workflow_dispatch: {}   # allows manual "Run workflow" trigger from the Actions tab
+
+# Queue overlapping runs instead of letting them race each other (e.g. a
+# manual trigger landing at the same time as the scheduled run) - this was
+# the most likely cause of a "failed to push" error.
+concurrency:
+  group: wind-logger
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -31,5 +40,13 @@ jobs:
           git config user.name "wind-logger-bot"
           git config user.email "actions@users.noreply.github.com"
           git add wind_log.csv
-          git diff --cached --quiet || git commit -m "Log wind data $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Log wind data $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && break
+            echo "Push attempt $i failed, retrying..."
+            sleep 5
+          done
