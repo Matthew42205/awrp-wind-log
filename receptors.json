@@ -1,0 +1,40 @@
+{
+  "_readme": "'bearing_receptors' entries carry a fixed bearing (and distance, where the ES states one) taken directly from the ES text - used only where no verified coordinate exists yet. 'latlon_receptors' entries carry a verified lat/lon (from Google Maps satellite imagery) - the script computes exact bearing AND straight-line distance from the stack automatically. Prefer latlon_receptors wherever you have a real coordinate; it's more precise than the ES's rounded 8-point compass directions (see discrepancy notes below).",
+
+  "stack": {
+    "name": "AWRP main EfW stack",
+    "lat": 54.033133,
+    "lon": -1.382039,
+    "source": "User-verified via Google Maps satellite imagery - base of stack, confirmed 2026-09-10."
+  },
+
+  "bearing_receptors": [
+    {"name": "South Farm",            "bearing_deg": 0,   "distance_m": 410,  "source": "ES Ch.10 Table 10.19"},
+    {"name": "Walls Close House",     "bearing_deg": 90,  "distance_m": 640,  "source": "ES Ch.10 Table 10.19"},
+    {"name": "Thornbar Farm",         "bearing_deg": 315, "distance_m": 680,  "source": "ES Ch.10 Table 10.19"},
+    {"name": "Clareton Village",      "bearing_deg": 225, "distance_m": 1040, "source": "ES Ch.10 Table 10.19"},
+    {"name": "Marton Cottage Farm",   "bearing_deg": 45,  "distance_m": 1760, "source": "ES Ch.10 Table 10.19"},
+    {"name": "Allerton Castle",       "bearing_deg": 135, "distance_m": 1920, "source": "ES Ch.10 Table 10.19"},
+    {"name": "Mickledale Farm",       "bearing_deg": 0,   "distance_m": 1810, "source": "ES Ch.10 Table 10.19"},
+    {"name": "Marton Moor Farm",      "bearing_deg": 0,   "distance_m": 1810, "source": "ES Ch.10 Table 10.19"}
+  ],
+
+  "_discrepancy_notes": {
+    "Arkendale": "ES Ch.10 Table 10.19 states 270deg/1750m ('west'). The verified coordinate (outside the church) computes to 304deg/2073m - closer to Ch.12's looser text description ('north-west'). The 2011 table figure appears rounded to the nearest 8-point compass direction.",
+    "Flaxby_resolved": "An earlier version of this file had Flaxby's coordinate wrong (it was actually the Bay Horse Inn, which is in Green Hammerton, not Flaxby) - that produced a bearing of 120deg/SE which contradicted the ES's 'south-west'. Corrected 2026-09-10: Flaxby now points to York Road/Shortsill Lane, which computes to 207deg/2.21km - consistent with the ES's 'south-west' description. Green Hammerton has been added as its own entry using the coordinate that was mistakenly applied to Flaxby before."
+  },
+
+  "latlon_receptors": [
+    {"name": "Coneythorpe",          "lat": 54.024650, "lon": -1.400900, "note": null,                       "source": "User-verified, Google Maps satellite, 2026-09-10"},
+    {"name": "Arkendale",            "lat": 54.043650, "lon": -1.408256, "note": "Outside church",           "source": "User-verified, Google Maps satellite, 2026-09-10"},
+    {"name": "Marton cum Grafton",   "lat": 54.060275, "lon": -1.363341, "note": "Pinfold",                  "source": "User-verified, Google Maps satellite, 2026-09-10"},
+    {"name": "Great Ouseburn",       "lat": 54.050691, "lon": -1.317405, "note": "Village Store",            "source": "User-verified, Google Maps satellite, 2026-09-10"},
+    {"name": "Little Ouseburn",      "lat": 54.040237, "lon": -1.320188, "note": "Half way down Main St",    "source": "User-verified, Google Maps satellite, 2026-09-10"},
+    {"name": "Whixley",              "lat": 54.016886, "lon": -1.325346, "note": "Green outside Village Hall","source": "User-verified, Google Maps satellite, 2026-09-10"},
+    {"name": "Flaxby",               "lat": 54.015470, "lon": -1.397504, "note": "York Road/Shortsill Lane", "source": "User-verified, Google Maps satellite, corrected 2026-09-10"},
+    {"name": "Green Hammerton",      "lat": 54.007884, "lon": -1.301080, "note": "Outside The Bay Horse Inn","source": "User-verified, Google Maps satellite, 2026-09-10"},
+    {"name": "Knaresborough",        "lat": 54.007884, "lon": -1.466767, "note": "Market Place",             "source": "User-verified, Google Maps satellite, 2026-09-10"},
+    {"name": "Allerton Mauleverer",  "lat": 54.015966, "lon": -1.366925, "note": "St Martin's Church",       "source": "User-verified, Google Maps satellite, 2026-09-10"},
+    {"name": "Hopperton",            "lat": 54.006683, "lon": -1.358019, "note": null,                       "source": "User-verified, Google Maps satellite, 2026-09-10"}
+  ]
+}
