@@ -12,8 +12,11 @@ towards surrounding villages.
   model (`ukmo_uk_deterministic_2km`), accessed via the free
   [Open-Meteo](https://open-meteo.com) API, for the stack's coordinates.
   It is not a physical anemometer reading at the site.
-- **Direction is unreliable at low wind speed.** Hours below 2 m/s at 10m
-  are flagged `calm_flag=True` and are not assigned a downwind receptor.
+- **Direction is unreliable at low wind speed, judged separately per
+  height.** Hours below 2 m/s are flagged calm for that height and get no
+  downwind receptor assigned for it — a common pattern is a calm surface
+  (10m) with a perfectly usable wind higher up (100m), since ground
+  friction affects 10m far more. See "Which height matters more" below.
 - **"Downwind" is a screening flag, not an exposure claim.** It tells you
   the plume was likely travelling in that general direction, not what
   ground-level concentration resulted — that depends on plume rise,
@@ -59,9 +62,40 @@ To match a specific emissions reading to a wind row: truncate the
 emissions timestamp down to the hour and look up that hour in
 `wind_log.csv`.
 
+## Which height matters more
+
+The main EfW stack is 70m tall, and per the ES (Table 10.15) the flue gas
+exits hot (130°C) and fast (15 m/s). A buoyant release like that rises well
+above the physical stack top before it starts travelling downwind — so the
+wind that actually carries the plume is closer to the 100m reading than
+the 10m one. 10m is the standard weather-reporting height, but it's
+dominated by ground friction and local terrain, which the plume at height
+never experiences.
+
+**Practical takeaway: treat the `_100m` columns as the primary ones for
+this stack, not `_10m`.** Both are logged and flagged independently
+because they often disagree — sometimes by 20-30°, sometimes one is calm
+while the other isn't (ground-level friction slows the 10m wind far more
+than the 100m wind, so it's common to see a calm surface with a perfectly
+usable wind higher up).
+
+## CSV columns
+
+Each row has two independent sets of results:
+
+- `plume_bearing_deg_10m` / `likely_downwind_receptors_10m` — based on the
+  10m wind.
+- `plume_bearing_deg_100m` / `likely_downwind_receptors_100m` — based on
+  the 100m wind. **Prefer this pair for reasoning about real-world
+  impact**, per the stack-height note above.
+- `calm_flag` reflects the 10m reading only (the conventional definition
+  of "calm"). The 100m reading is judged calm independently and simply
+  produces an empty `likely_downwind_receptors_100m` for that hour if its
+  own speed is below `CALM_THRESHOLD_MS` — it isn't gated by `calm_flag`.
+
 ## Receptor list
 
-`receptors.json` tracks 18 points. Two kinds of entry:
+`receptors.json` tracks 19 points. Two kinds of entry:
 
 - **`latlon_receptors`** — verified coordinates (Google Maps satellite
   imagery, cross-checked against the stack in the same way). Covers the
@@ -76,15 +110,18 @@ emissions timestamp down to the hour and look up that hour in
   no verified coordinate has been added yet, so bearing/distance are
   taken directly from the ES text instead.
 
-**Known discrepancies between the ES's rounded compass directions and the
-verified coordinates** (see `_discrepancy_notes` in `receptors.json`):
+**Known discrepancy between an ES rounded compass direction and a verified
+coordinate** (see `_discrepancy_notes` in `receptors.json`):
 - Arkendale: ES table says 270°/1750m ("west"); the verified coordinate
   (outside the church) is 304°/2073m — closer to Ch.12's looser text
-  description ("north-west").
-- Flaxby: ES text says "south-west"; the verified coordinate (Bay Horse
-  Inn, village centre) is 120°/6125m — south-east, nearly the opposite
-  side of the compass. Worth checking before citing the ES's own
-  receptor list if this ever matters to correspondence.
+  description ("north-west"). The 2011 table figure looks rounded to the
+  nearest 8-point compass direction.
+
+(An earlier version of this file had Flaxby's coordinate wrong — it was
+actually the Bay Horse Inn, which turned out to be in Green Hammerton, not
+Flaxby. That's been corrected; Green Hammerton is now tracked in its own
+right, and Flaxby's corrected bearing (207°) is consistent with the ES's
+"south-west" description.)
 
 Each hour's row now lists downwind receptors with their distance, nearest
 first, e.g. `Allerton Castle (1.9km);Whixley (4.1km)`. Distance is a rough
