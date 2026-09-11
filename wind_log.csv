@@ -108,3 +108,4 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-09-11T10:00,292,4.7,294,7.4,ukmo_uk_deterministic_2km,False,112,Walls Close House (0.6km);Whixley (4.1km);Green Hammerton (6.0km),114,Allerton Castle (1.9km);Whixley (4.1km);Green Hammerton (6.0km)
 2026-09-11T11:00,314,3.1,312,4.8,ukmo_uk_deterministic_2km,False,134,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km);Whixley (4.1km);Green Hammerton (6.0km),132,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km);Whixley (4.1km);Green Hammerton (6.0km)
 2026-09-11T12:00,298,2.4,296,3.8,ukmo_uk_deterministic_2km,False,118,Allerton Castle (1.9km);Whixley (4.1km);Green Hammerton (6.0km),116,Allerton Castle (1.9km);Whixley (4.1km);Green Hammerton (6.0km)
+2026-09-11T13:00,280,1.7,278,2.7,ukmo_uk_deterministic_2km,True,100,,98,Walls Close House (0.6km);Little Ouseburn (4.1km);Whixley (4.1km);Green Hammerton (6.0km)
