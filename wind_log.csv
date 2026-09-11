@@ -113,3 +113,4 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-09-11T15:00,272,4.8,272,7.3,ukmo_uk_deterministic_2km,False,92,Walls Close House (0.6km);Little Ouseburn (4.1km),92,Walls Close House (0.6km);Little Ouseburn (4.1km)
 2026-09-11T16:00,268,4.8,268,7.4,ukmo_uk_deterministic_2km,False,88,Walls Close House (0.6km);Little Ouseburn (4.1km),88,Walls Close House (0.6km);Little Ouseburn (4.1km)
 2026-09-11T17:00,272,4.4,274,7.6,ukmo_uk_deterministic_2km,False,92,Walls Close House (0.6km);Little Ouseburn (4.1km),94,Walls Close House (0.6km);Little Ouseburn (4.1km);Whixley (4.1km)
+2026-09-11T18:00,272,3.4,278,7.5,ukmo_uk_deterministic_2km,False,92,Walls Close House (0.6km);Little Ouseburn (4.1km),98,Walls Close House (0.6km);Little Ouseburn (4.1km);Whixley (4.1km);Green Hammerton (6.0km)
