@@ -153,3 +153,4 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-09-13T07:00,44,2.4,34,4.0,ukmo_uk_deterministic_2km,False,224,Clareton Village (1.0km);Coneythorpe (1.6km);Flaxby (2.2km);Knaresborough (6.2km),214,Clareton Village (1.0km);Coneythorpe (1.6km);Flaxby (2.2km)
 2026-09-13T08:00,346,0.8,4,1.4,ukmo_uk_deterministic_2km,True,166,,184,
 2026-09-13T09:00,332,1.2,344,2.0,ukmo_uk_deterministic_2km,True,152,,164,Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-09-13T10:00,344,2.1,350,3.1,ukmo_uk_deterministic_2km,False,164,Allerton Mauleverer (2.1km);Hopperton (3.3km),170,Allerton Mauleverer (2.1km);Hopperton (3.3km)
