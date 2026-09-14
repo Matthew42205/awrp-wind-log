@@ -168,3 +168,4 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-09-13T22:00,148,3.1,154,7.1,ukmo_uk_deterministic_2km,False,328,Thornbar Farm (0.7km),334,Thornbar Farm (0.7km)
 2026-09-13T23:00,158,3.1,162,7.0,ukmo_uk_deterministic_2km,False,338,South Farm (0.4km);Mickledale Farm (1.8km);Marton Moor Farm (1.8km),342,South Farm (0.4km);Mickledale Farm (1.8km);Marton Moor Farm (1.8km)
 2026-09-14T00:00,138,2.2,148,5.3,ukmo_uk_deterministic_2km,False,318,Thornbar Farm (0.7km);Arkendale (2.1km),328,Thornbar Farm (0.7km)
+2026-09-14T01:00,146,1.8,164,4.7,ukmo_uk_deterministic_2km,True,326,,344,South Farm (0.4km);Mickledale Farm (1.8km);Marton Moor Farm (1.8km)
