@@ -288,3 +288,4 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-09-18T22:00,206,4.9,214,9.6,ukmo_uk_deterministic_2km,False,26,Marton Cottage Farm (1.8km);Marton cum Grafton (3.3km),34,Marton Cottage Farm (1.8km);Marton cum Grafton (3.3km)
 2026-09-18T23:00,218,5.2,224,10.6,ukmo_uk_deterministic_2km,False,38,Marton Cottage Farm (1.8km);Marton cum Grafton (3.3km),44,Marton Cottage Farm (1.8km);Marton cum Grafton (3.3km);Great Ouseburn (4.6km)
 2026-09-19T00:00,220,4.9,230,9.8,ukmo_uk_deterministic_2km,False,40,Marton Cottage Farm (1.8km);Marton cum Grafton (3.3km),50,Marton Cottage Farm (1.8km);Great Ouseburn (4.6km)
+2026-09-19T01:00,226,6.4,226,11.9,ukmo_uk_deterministic_2km,False,46,Marton Cottage Farm (1.8km);Great Ouseburn (4.6km),46,Marton Cottage Farm (1.8km);Great Ouseburn (4.6km)
