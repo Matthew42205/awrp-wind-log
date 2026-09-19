@@ -299,3 +299,4 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-09-19T09:00,252,8.6,254,12.7,ukmo_uk_deterministic_2km,False,72,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km),74,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
 2026-09-19T10:00,256,7.6,258,12.7,ukmo_uk_deterministic_2km,False,76,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km),78,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
 2026-09-19T11:00,256,9.3,256,14.9,ukmo_uk_deterministic_2km,False,76,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km),76,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
+2026-09-19T12:00,254,10.4,254,14.9,ukmo_uk_deterministic_2km,False,74,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km),74,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
