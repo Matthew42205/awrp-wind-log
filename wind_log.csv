@@ -310,3 +310,5 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-09-19T20:00,244,4.7,248,9.6,ukmo_uk_deterministic_2km,False,64,Marton Cottage Farm (1.8km);Little Ouseburn (4.1km);Great Ouseburn (4.6km),68,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
 2026-09-19T21:00,244,6.1,250,11.8,ukmo_uk_deterministic_2km,False,64,Marton Cottage Farm (1.8km);Little Ouseburn (4.1km);Great Ouseburn (4.6km),70,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
 2026-09-19T22:00,266,3.9,264,8.8,ukmo_uk_deterministic_2km,False,86,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km),84,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
+2026-09-19T23:00,258,2.6,262,6.8,ukmo_uk_deterministic_2km,False,78,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km),82,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
+2026-09-20T00:00,308,3.5,302,6.8,ukmo_uk_deterministic_2km,False,128,Allerton Castle (1.9km);Whixley (4.1km);Green Hammerton (6.0km),122,Allerton Castle (1.9km);Whixley (4.1km);Green Hammerton (6.0km)
