@@ -406,3 +406,6 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-09-23T20:00,170,0.6,86,0.8,ukmo_uk_deterministic_2km,True,350,,266,
 2026-09-23T21:00,194,1.5,168,2.2,ukmo_uk_deterministic_2km,True,14,,348,South Farm (0.4km);Mickledale Farm (1.8km);Marton Moor Farm (1.8km)
 2026-09-23T22:00,262,1.1,188,1.8,ukmo_uk_deterministic_2km,True,82,,8,
+2026-09-23T23:00,282,2.3,314,4.3,ukmo_uk_deterministic_2km,False,102,Walls Close House (0.6km);Whixley (4.1km);Green Hammerton (6.0km),134,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km);Whixley (4.1km);Green Hammerton (6.0km)
+2026-09-24T00:00,268,1.9,330,3.8,ukmo_uk_deterministic_2km,True,88,,150,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-09-24T01:00,264,1.7,342,1.8,ukmo_uk_deterministic_2km,True,84,,162,
