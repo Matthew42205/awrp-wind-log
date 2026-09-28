@@ -519,3 +519,9 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-09-28T13:00,278,1.5,270,2.1,ukmo_uk_deterministic_2km,True,98,,90,Walls Close House (0.6km);Little Ouseburn (4.1km)
 2026-09-28T14:00,284,0.6,268,0.9,ukmo_uk_deterministic_2km,True,104,,88,
 2026-09-28T15:00,82,0.7,88,0.7,ukmo_uk_deterministic_2km,True,262,,268,
+2026-09-28T16:00,82,0.8,106,0.9,ukmo_uk_deterministic_2km,True,262,,286,
+2026-09-28T17:00,112,2.0,120,3.6,ukmo_uk_deterministic_2km,False,292,Arkendale (2.1km),300,Thornbar Farm (0.7km);Arkendale (2.1km)
+2026-09-28T18:00,102,2.1,106,3.6,ukmo_uk_deterministic_2km,False,282,Arkendale (2.1km),286,Arkendale (2.1km)
+2026-09-28T19:00,132,3.3,138,7.9,ukmo_uk_deterministic_2km,False,312,Thornbar Farm (0.7km);Arkendale (2.1km),318,Thornbar Farm (0.7km);Arkendale (2.1km)
+2026-09-28T20:00,116,3.4,126,8.3,ukmo_uk_deterministic_2km,False,296,Thornbar Farm (0.7km);Arkendale (2.1km),306,Thornbar Farm (0.7km);Arkendale (2.1km)
+2026-09-28T21:00,122,3.0,132,7.8,ukmo_uk_deterministic_2km,False,302,Thornbar Farm (0.7km);Arkendale (2.1km),312,Thornbar Farm (0.7km);Arkendale (2.1km)
