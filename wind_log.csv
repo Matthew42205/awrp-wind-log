@@ -501,3 +501,6 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-09-27T19:00,272,4.8,276,9.2,ukmo_uk_deterministic_2km,False,92,Walls Close House (0.6km);Little Ouseburn (4.1km),96,Walls Close House (0.6km);Little Ouseburn (4.1km);Whixley (4.1km);Green Hammerton (6.0km)
 2026-09-27T20:00,276,3.4,284,8.5,ukmo_uk_deterministic_2km,False,96,Walls Close House (0.6km);Little Ouseburn (4.1km);Whixley (4.1km);Green Hammerton (6.0km),104,Walls Close House (0.6km);Whixley (4.1km);Green Hammerton (6.0km)
 2026-09-27T21:00,272,2.9,280,8.4,ukmo_uk_deterministic_2km,False,92,Walls Close House (0.6km);Little Ouseburn (4.1km),100,Walls Close House (0.6km);Little Ouseburn (4.1km);Whixley (4.1km);Green Hammerton (6.0km)
+2026-09-27T22:00,236,2.1,262,6.2,ukmo_uk_deterministic_2km,False,56,Marton Cottage Farm (1.8km);Great Ouseburn (4.6km),82,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
+2026-09-27T23:00,190,1.7,258,4.4,ukmo_uk_deterministic_2km,True,10,,78,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
+2026-09-28T00:00,194,2.7,236,4.4,ukmo_uk_deterministic_2km,False,14,South Farm (0.4km);Mickledale Farm (1.8km);Marton Moor Farm (1.8km);Marton cum Grafton (3.3km),56,Marton Cottage Farm (1.8km);Great Ouseburn (4.6km)
