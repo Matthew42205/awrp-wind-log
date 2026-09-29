@@ -543,3 +543,8 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-09-29T13:00,112,7.1,114,11.0,ukmo_uk_deterministic_2km,False,292,Arkendale (2.1km),294,Thornbar Farm (0.7km);Arkendale (2.1km)
 2026-09-29T14:00,118,6.3,118,10.0,ukmo_uk_deterministic_2km,False,298,Thornbar Farm (0.7km);Arkendale (2.1km),298,Thornbar Farm (0.7km);Arkendale (2.1km)
 2026-09-29T15:00,110,6.0,112,9.6,ukmo_uk_deterministic_2km,False,290,Arkendale (2.1km),292,Arkendale (2.1km)
+2026-09-29T16:00,118,4.9,120,8.2,ukmo_uk_deterministic_2km,False,298,Thornbar Farm (0.7km);Arkendale (2.1km),300,Thornbar Farm (0.7km);Arkendale (2.1km)
+2026-09-29T17:00,120,4.8,120,8.6,ukmo_uk_deterministic_2km,False,300,Thornbar Farm (0.7km);Arkendale (2.1km),300,Thornbar Farm (0.7km);Arkendale (2.1km)
+2026-09-29T18:00,112,5.6,114,10.8,ukmo_uk_deterministic_2km,False,292,Arkendale (2.1km),294,Thornbar Farm (0.7km);Arkendale (2.1km)
+2026-09-29T19:00,114,5.8,116,11.1,ukmo_uk_deterministic_2km,False,294,Thornbar Farm (0.7km);Arkendale (2.1km),296,Thornbar Farm (0.7km);Arkendale (2.1km)
+2026-09-29T20:00,122,5.4,126,10.6,ukmo_uk_deterministic_2km,False,302,Thornbar Farm (0.7km);Arkendale (2.1km),306,Thornbar Farm (0.7km);Arkendale (2.1km)
