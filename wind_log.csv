@@ -565,3 +565,8 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-09-30T11:00,206,4.9,210,7.6,ukmo_uk_deterministic_2km,False,26,Marton Cottage Farm (1.8km);Marton cum Grafton (3.3km),30,Marton Cottage Farm (1.8km);Marton cum Grafton (3.3km)
 2026-09-30T12:00,208,6.3,210,9.9,ukmo_uk_deterministic_2km,False,28,Marton Cottage Farm (1.8km);Marton cum Grafton (3.3km),30,Marton Cottage Farm (1.8km);Marton cum Grafton (3.3km)
 2026-09-30T13:00,206,6.3,206,10.1,ukmo_uk_deterministic_2km,False,26,Marton Cottage Farm (1.8km);Marton cum Grafton (3.3km),26,Marton Cottage Farm (1.8km);Marton cum Grafton (3.3km)
+2026-09-30T14:00,210,5.4,210,8.6,ukmo_uk_deterministic_2km,False,30,Marton Cottage Farm (1.8km);Marton cum Grafton (3.3km),30,Marton Cottage Farm (1.8km);Marton cum Grafton (3.3km)
+2026-09-30T15:00,208,4.8,208,7.9,ukmo_uk_deterministic_2km,False,28,Marton Cottage Farm (1.8km);Marton cum Grafton (3.3km),28,Marton Cottage Farm (1.8km);Marton cum Grafton (3.3km)
+2026-09-30T16:00,188,4.3,188,7.6,ukmo_uk_deterministic_2km,False,8,South Farm (0.4km);Mickledale Farm (1.8km);Marton Moor Farm (1.8km);Marton cum Grafton (3.3km),8,South Farm (0.4km);Mickledale Farm (1.8km);Marton Moor Farm (1.8km);Marton cum Grafton (3.3km)
+2026-09-30T17:00,174,4.1,180,8.9,ukmo_uk_deterministic_2km,False,354,South Farm (0.4km);Mickledale Farm (1.8km);Marton Moor Farm (1.8km),0,South Farm (0.4km);Mickledale Farm (1.8km);Marton Moor Farm (1.8km);Marton cum Grafton (3.3km)
+2026-09-30T18:00,160,3.0,174,7.8,ukmo_uk_deterministic_2km,False,340,South Farm (0.4km);Mickledale Farm (1.8km);Marton Moor Farm (1.8km),354,South Farm (0.4km);Mickledale Farm (1.8km);Marton Moor Farm (1.8km)
