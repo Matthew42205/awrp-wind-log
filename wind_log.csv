@@ -703,3 +703,10 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-10-06T05:00,236,1.6,264,3.4,ukmo_uk_deterministic_2km,True,56,,84,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
 2026-10-06T06:00,326,2.2,322,3.3,ukmo_uk_deterministic_2km,False,146,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),142,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
 2026-10-06T07:00,326,1.4,328,2.0,ukmo_uk_deterministic_2km,True,146,,148,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-10-06T08:00,340,1.9,342,2.4,ukmo_uk_deterministic_2km,True,160,,162,Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-10-06T09:00,346,1.3,346,1.4,ukmo_uk_deterministic_2km,True,166,,166,
+2026-10-06T10:00,334,2.2,338,2.5,ukmo_uk_deterministic_2km,False,154,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),158,Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-10-06T11:00,342,3.0,342,4.2,ukmo_uk_deterministic_2km,False,162,Allerton Mauleverer (2.1km);Hopperton (3.3km),162,Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-10-06T12:00,348,2.9,350,4.3,ukmo_uk_deterministic_2km,False,168,Allerton Mauleverer (2.1km);Hopperton (3.3km),170,Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-10-06T13:00,340,3.4,344,5.1,ukmo_uk_deterministic_2km,False,160,Allerton Mauleverer (2.1km);Hopperton (3.3km),164,Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-10-06T14:00,346,3.2,350,4.8,ukmo_uk_deterministic_2km,False,166,Allerton Mauleverer (2.1km);Hopperton (3.3km),170,Allerton Mauleverer (2.1km);Hopperton (3.3km)
