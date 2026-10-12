@@ -1,14 +1,14 @@
 name,lat,lon,bearing_from_stack_deg,distance_from_stack_m,coordinate_status,source,note
 AWRP main EfW stack,54.033133,-1.382039,,,verified,"User-verified via Google Maps satellite imagery - base of stack, confirmed 2026-09-10.",
-South Farm,54.036820,-1.382039,0,410,derived from ES bearing/distance,ES Ch.10 Table 10.19,
-Walls Close House,54.033133,-1.372239,90,640,derived from ES bearing/distance,ES Ch.10 Table 10.19,
-Thornbar Farm,54.037457,-1.389402,315,680,derived from ES bearing/distance,ES Ch.10 Table 10.19,
-Clareton Village,54.026519,-1.393298,225,1040,derived from ES bearing/distance,ES Ch.10 Table 10.19,
+South Farm,54.036968,-1.381188,7.4,430,verified,"ES Ch.10 Table 10.19 (bearing/distance); coordinate user-verified, Google Maps satellite, 2026-10-12",
+Walls Close House,54.032003,-1.372285,101.2,649,verified,"ES Ch.10 Table 10.19 (bearing/distance); coordinate user-verified, Google Maps satellite, 2026-10-12",
+Thornbar Farm,54.039351,-1.383207,353.7,696,verified,"ES Ch.10 Table 10.19 (bearing/distance); coordinate user-verified, Google Maps satellite, 2026-10-12",
+Clareton Village,54.028914,-1.398203,246.0,1155,verified,"ES Ch.10 Table 10.19 (bearing/distance); coordinate user-verified, Google Maps satellite, 2026-10-12",
 Coneythorpe,54.024650,-1.400900,232.6,1552,verified,"User-verified, Google Maps satellite, 2026-09-10",
-Marton Cottage Farm,54.044324,-1.362978,45,1760,derived from ES bearing/distance,ES Ch.10 Table 10.19,
-Mickledale Farm,54.049411,-1.382039,0,1810,derived from ES bearing/distance,ES Ch.10 Table 10.19,"ES lists the same bearing/distance as Marton Moor Farm, so the two derived points coincide - check Table 10.19 for a transcription error."
-Marton Moor Farm,54.049411,-1.382039,0,1810,derived from ES bearing/distance,ES Ch.10 Table 10.19,"ES lists the same bearing/distance as Mickledale Farm, so the two derived points coincide - check Table 10.19 for a transcription error."
-Allerton Castle,54.020922,-1.361256,135,1920,derived from ES bearing/distance,ES Ch.10 Table 10.19,
+Marton Cottage Farm,54.043961,-1.361736,47.7,1791,verified,"ES Ch.10 Table 10.19 (bearing/distance); coordinate user-verified, Google Maps satellite, 2026-10-12",
+Mickledale Farm,54.048038,-1.369975,25.4,1835,verified,"ES Ch.10 Table 10.19 (bearing/distance); coordinate user-verified, Google Maps satellite, 2026-10-12",
+Marton Moor Farm,54.046283,-1.364847,37.5,1843,verified,"ES Ch.10 Table 10.19 (bearing/distance); coordinate user-verified, Google Maps satellite, 2026-10-12",
+Allerton Castle,54.017034,-1.370559,157.3,1941,verified,"ES Ch.10 Table 10.19 (bearing/distance); coordinate user-verified, Google Maps satellite, 2026-10-12",
 Arkendale,54.043650,-1.408256,304.3,2073,verified,"User-verified, Google Maps satellite, 2026-09-10",Outside church
 Allerton Mauleverer,54.015966,-1.366925,152.6,2149,verified,"User-verified, Google Maps satellite, 2026-09-10",St Martin's Church
 Flaxby,54.015470,-1.397504,207.2,2209,verified,"User-verified, Google Maps satellite, corrected 2026-09-10",York Road/Shortsill Lane

@@ -108,28 +108,45 @@ Each row has two independent sets of results:
   Knaresborough, Allerton Mauleverer, and Hopperton. The script computes
   exact bearing AND straight-line distance from the stack for these
   automatically — no manual bearing/distance entry needed.
-- **`bearing_receptors`** — the remaining ES Ch.10 Table 10.19 points
-  (South Farm, Walls Close House, Thornbar Farm, Clareton Village, Marton
-  Cottage Farm, Allerton Castle, Mickledale Farm, Marton Moor Farm).
-  The ES gives these only as a bearing and distance from the stack, and
-  those figures still drive the downwind check. Each now also carries a
-  `lat`/`lon` so it can be plotted, **derived** from the ES figures (the
-  point reached from the stack at that bearing and distance). They
-  reproduce the ES figures exactly but are **not field-verified building
-  locations**: the ES rounds directions to 8-point compass values, so the
-  real building can sit some distance from the derived point. They are
-  labelled `derived from ES bearing/distance` in `receptors.json` and in
-  `receptor_coordinates.csv`.
+- **`bearing_receptors`** — the ES Ch.10 Table 10.19 points (South Farm,
+  Walls Close House, Thornbar Farm, Clareton Village, Marton Cottage
+  Farm, Allerton Castle, Mickledale Farm, Marton Moor Farm). The ES gives
+  these only as a bearing and distance from the stack, which are kept in
+  `receptors.json` for provenance. Each now has a `verified_lat` /
+  `verified_lon` taken from Google Maps satellite imagery on 2026-10-12,
+  and **the script uses those real coordinates for bearing and distance**
+  rather than the ES's rounded 8-point compass directions. (An entry
+  with no verified coordinate falls back to the ES bearing/distance.)
 
-  To replace a derived point with a real one, add `verified_lat` and
-  `verified_lon` to that entry in `receptors.json` (look it up on Google
-  Maps satellite imagery the same way the stack was). The script then
-  uses the verified point for bearing and distance, and reports the entry
-  as `verified`.
+  ES figures versus the verified coordinates (bearing is degrees from
+  the stack; distance in metres):
 
-  Mickledale Farm and Marton Moor Farm have identical ES figures
-  (0°/1810 m), so their derived points coincide — worth checking Table
-  10.19 for a transcription error.
+  | Receptor | ES bearing / distance | Verified bearing / distance |
+  | --- | --- | --- |
+  | South Farm | 0° / 410 | 7.4° / 430 |
+  | Walls Close House | 90° / 640 | 101.2° / 649 |
+  | Thornbar Farm | 315° / 680 | 353.7° / 696 |
+  | Clareton Village | 225° / 1040 | 246.0° / 1155 |
+  | Marton Cottage Farm | 45° / 1760 | 47.7° / 1791 |
+  | Allerton Castle | 135° / 1920 | 157.3° / 1941 |
+  | Mickledale Farm | 0° / 1810 | 25.4° / 1835 |
+  | Marton Moor Farm | 0° / 1810 | 37.5° / 1843 |
+
+  Distances agree with the ES to within about 11%, but bearings differ by
+  up to 39° (Thornbar Farm is "north-west" in the ES but sits almost due
+  north). Mickledale Farm and Marton Moor Farm share identical ES figures
+  yet are about 390 m apart on the ground, so Table 10.19 may contain a
+  transcription error.
+
+**Cutover — read this before comparing old and new rows.** Rows in
+`wind_log.csv` logged before 2026-10-12 flagged these eight receptors
+using the ES bearings. Rows from then on use the verified coordinates, so
+the same wind can flag different receptors before and after. Over the 824
+usable 100m hours logged to that point, the flagged ES receptors would
+have differed in about 59% of hours. The earlier rows have not been
+rewritten, so the log stays a true record of what the script produced at
+the time; the plume bearing is stored in every row, so any period can be
+re-flagged against the current receptor list if needed.
 
 Run `python wind_logger.py --export-receptors` to regenerate
 `receptor_coordinates.csv`: every receptor with its coordinates, bearing
