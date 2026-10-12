@@ -1,0 +1,21 @@
+name,lat,lon,bearing_from_stack_deg,distance_from_stack_m,coordinate_status,source,note
+AWRP main EfW stack,54.033133,-1.382039,,,verified,"User-verified via Google Maps satellite imagery - base of stack, confirmed 2026-09-10.",
+South Farm,54.036820,-1.382039,0,410,derived from ES bearing/distance,ES Ch.10 Table 10.19,
+Walls Close House,54.033133,-1.372239,90,640,derived from ES bearing/distance,ES Ch.10 Table 10.19,
+Thornbar Farm,54.037457,-1.389402,315,680,derived from ES bearing/distance,ES Ch.10 Table 10.19,
+Clareton Village,54.026519,-1.393298,225,1040,derived from ES bearing/distance,ES Ch.10 Table 10.19,
+Coneythorpe,54.024650,-1.400900,232.6,1552,verified,"User-verified, Google Maps satellite, 2026-09-10",
+Marton Cottage Farm,54.044324,-1.362978,45,1760,derived from ES bearing/distance,ES Ch.10 Table 10.19,
+Mickledale Farm,54.049411,-1.382039,0,1810,derived from ES bearing/distance,ES Ch.10 Table 10.19,"ES lists the same bearing/distance as Marton Moor Farm, so the two derived points coincide - check Table 10.19 for a transcription error."
+Marton Moor Farm,54.049411,-1.382039,0,1810,derived from ES bearing/distance,ES Ch.10 Table 10.19,"ES lists the same bearing/distance as Mickledale Farm, so the two derived points coincide - check Table 10.19 for a transcription error."
+Allerton Castle,54.020922,-1.361256,135,1920,derived from ES bearing/distance,ES Ch.10 Table 10.19,
+Arkendale,54.043650,-1.408256,304.3,2073,verified,"User-verified, Google Maps satellite, 2026-09-10",Outside church
+Allerton Mauleverer,54.015966,-1.366925,152.6,2149,verified,"User-verified, Google Maps satellite, 2026-09-10",St Martin's Church
+Flaxby,54.015470,-1.397504,207.2,2209,verified,"User-verified, Google Maps satellite, corrected 2026-09-10",York Road/Shortsill Lane
+Marton cum Grafton,54.060275,-1.363341,22.0,3256,verified,"User-verified, Google Maps satellite, 2026-09-10",Pinfold
+Hopperton,54.006683,-1.358019,151.9,3334,verified,"User-verified, Google Maps satellite, 2026-09-10",
+Little Ouseburn,54.040237,-1.320188,78.9,4115,verified,"User-verified, Google Maps satellite, 2026-09-10",Half way down Main St
+Whixley,54.016886,-1.325346,116.0,4120,verified,"User-verified, Google Maps satellite, 2026-09-10",Green outside Village Hall
+Great Ouseburn,54.050691,-1.317405,65.1,4650,verified,"User-verified, Google Maps satellite, 2026-09-10",Village Store
+Green Hammerton,54.007884,-1.301080,117.9,5988,verified,"User-verified, Google Maps satellite, 2026-09-10",Outside The Bay Horse Inn
+Knaresborough,54.007884,-1.466767,243.1,6206,verified,"User-verified, Google Maps satellite, 2026-09-10",Market Place

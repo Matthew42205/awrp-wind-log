@@ -37,7 +37,8 @@ IMPORTANT - what this is and isn't:
   source actually supports.
 
 Usage:
-    python wind_logger.py
+    python wind_logger.py                      # fetch wind and append to wind_log.csv
+    python wind_logger.py --export-receptors   # write receptor_coordinates.csv
 
 Designed to be run on a schedule via GitHub Actions (see
 .github/workflows/wind-log.yml), polling once per hour. Open-Meteo's
@@ -87,10 +88,29 @@ def load_receptors():
     stack = data["stack"]
     receptors = []
     for r in data.get("bearing_receptors", []):
+        if r.get("verified_lat") is not None and r.get("verified_lon") is not None:
+            # A real, checked coordinate has been added: use it for bearing
+            # and distance in place of the ES's rounded figures.
+            lat, lon = r["verified_lat"], r["verified_lon"]
+            bearing = initial_bearing(stack["lat"], stack["lon"], lat, lon)
+            distance = haversine_m(stack["lat"], stack["lon"], lat, lon)
+            status = "verified"
+        else:
+            # ES bearing/distance drive the downwind check. lat/lon (if
+            # present) are derived from them and are for display only.
+            lat, lon = r.get("lat"), r.get("lon")
+            bearing = r["bearing_deg"]
+            distance = r.get("distance_m")
+            status = r.get("coordinate_status", "ES bearing/distance only")
         receptors.append({
             "name": r["name"],
-            "bearing_deg": r["bearing_deg"],
-            "distance_m": r.get("distance_m"),
+            "bearing_deg": bearing,
+            "distance_m": distance,
+            "lat": lat,
+            "lon": lon,
+            "coordinate_status": status,
+            "source": r.get("source", ""),
+            "note": r.get("note") or "",
         })
     for v in data.get("latlon_receptors", []):
         bearing = initial_bearing(stack["lat"], stack["lon"], v["lat"], v["lon"])
@@ -99,8 +119,42 @@ def load_receptors():
             "name": v["name"],
             "bearing_deg": bearing,
             "distance_m": distance,
+            "lat": v["lat"],
+            "lon": v["lon"],
+            "coordinate_status": "verified",
+            "source": v.get("source", ""),
+            "note": v.get("note") or "",
         })
     return stack, receptors
+
+
+def export_receptors(path=None):
+    """Write every receptor with its coordinates, bearing and distance from
+    the stack to receptor_coordinates.csv, for checking and mapping."""
+    path = path or os.path.join(HERE, "receptor_coordinates.csv")
+    stack, receptors = load_receptors()
+    fields = ["name", "lat", "lon", "bearing_from_stack_deg", "distance_from_stack_m",
+              "coordinate_status", "source", "note"]
+    with open(path, "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fields)
+        writer.writeheader()
+        writer.writerow({
+            "name": stack["name"], "lat": stack["lat"], "lon": stack["lon"],
+            "bearing_from_stack_deg": "", "distance_from_stack_m": "",
+            "coordinate_status": "verified", "source": stack.get("source", ""), "note": "",
+        })
+        for r in sorted(receptors, key=lambda r: r["distance_m"] if r["distance_m"] is not None else float("inf")):
+            writer.writerow({
+                "name": r["name"],
+                "lat": "" if r["lat"] is None else f"{r['lat']:.6f}",
+                "lon": "" if r["lon"] is None else f"{r['lon']:.6f}",
+                "bearing_from_stack_deg": round(r["bearing_deg"], 1),
+                "distance_from_stack_m": "" if r["distance_m"] is None else round(r["distance_m"]),
+                "coordinate_status": r["coordinate_status"],
+                "source": r["source"],
+                "note": r["note"],
+            })
+    return path
 
 
 def initial_bearing(lat1, lon1, lat2, lon2):
@@ -263,4 +317,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    if "--export-receptors" in sys.argv:
+        print(f"Wrote {export_receptors()}")
+    else:
+        main()

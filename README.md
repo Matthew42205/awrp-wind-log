@@ -34,6 +34,10 @@ towards surrounding villages.
   provenance of each coordinate — the villages list uses approximate,
   unverified coordinates and should be checked against a map before you
   rely on any single village's flag.
+- `receptor_coordinates.csv` — every receptor with its coordinates,
+  bearing and distance from the stack, and whether each coordinate is
+  verified or derived. Regenerate with
+  `python wind_logger.py --export-receptors`.
 - `wind_log.csv` — created on first run; one row per hour.
 - `.github/workflows/wind-log.yml` — runs the logger once per hour via
   GitHub Actions and commits any new rows.
@@ -99,16 +103,39 @@ Each row has two independent sets of results:
 
 - **`latlon_receptors`** — verified coordinates (Google Maps satellite
   imagery, cross-checked against the stack in the same way). Covers the
-  ten settlements you'd care most about: Coneythorpe, Arkendale, Marton
-  cum Grafton, Great Ouseburn, Little Ouseburn, Whixley, Flaxby,
+  eleven settlements: Coneythorpe, Arkendale, Marton cum Grafton, Great
+  Ouseburn, Little Ouseburn, Whixley, Flaxby, Green Hammerton,
   Knaresborough, Allerton Mauleverer, and Hopperton. The script computes
   exact bearing AND straight-line distance from the stack for these
   automatically — no manual bearing/distance entry needed.
 - **`bearing_receptors`** — the remaining ES Ch.10 Table 10.19 points
   (South Farm, Walls Close House, Thornbar Farm, Clareton Village, Marton
-  Cottage Farm, Allerton Castle, Mickledale Farm, Marton Moor Farm) where
-  no verified coordinate has been added yet, so bearing/distance are
-  taken directly from the ES text instead.
+  Cottage Farm, Allerton Castle, Mickledale Farm, Marton Moor Farm).
+  The ES gives these only as a bearing and distance from the stack, and
+  those figures still drive the downwind check. Each now also carries a
+  `lat`/`lon` so it can be plotted, **derived** from the ES figures (the
+  point reached from the stack at that bearing and distance). They
+  reproduce the ES figures exactly but are **not field-verified building
+  locations**: the ES rounds directions to 8-point compass values, so the
+  real building can sit some distance from the derived point. They are
+  labelled `derived from ES bearing/distance` in `receptors.json` and in
+  `receptor_coordinates.csv`.
+
+  To replace a derived point with a real one, add `verified_lat` and
+  `verified_lon` to that entry in `receptors.json` (look it up on Google
+  Maps satellite imagery the same way the stack was). The script then
+  uses the verified point for bearing and distance, and reports the entry
+  as `verified`.
+
+  Mickledale Farm and Marton Moor Farm have identical ES figures
+  (0°/1810 m), so their derived points coincide — worth checking Table
+  10.19 for a transcription error.
+
+Run `python wind_logger.py --export-receptors` to regenerate
+`receptor_coordinates.csv`: every receptor with its coordinates, bearing
+and distance from the stack, and whether the coordinate is verified or
+derived. Paste the lat/lon columns into Google Maps or any GIS tool to
+plot them.
 
 **Known discrepancy between an ES rounded compass direction and a verified
 coordinate** (see `_discrepancy_notes` in `receptors.json`):

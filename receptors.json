@@ -8,15 +8,17 @@
     "source": "User-verified via Google Maps satellite imagery - base of stack, confirmed 2026-09-10."
   },
 
+  "_bearing_receptors_note": "Each ES Table 10.19 receptor keeps the bearing/distance the ES states (these still drive the downwind check, so flagging is unchanged). 'lat'/'lon' are DERIVED from those figures - the point reached from the stack at that bearing and distance (spherical earth, same radius as haversine_m) - so they reproduce the ES bearing/distance exactly but are NOT field-verified building locations. The ES rounds directions to 8-point compass values and gives approximate distances, so the real building can sit several hundred metres from the derived point. To replace a derived point with a real one, add 'verified_lat' and 'verified_lon' (Google Maps satellite, same method as the stack) to that entry: the script then uses the verified point for bearing and distance and reports the entry as verified.",
+
   "bearing_receptors": [
-    {"name": "South Farm",            "bearing_deg": 0,   "distance_m": 410,  "source": "ES Ch.10 Table 10.19"},
-    {"name": "Walls Close House",     "bearing_deg": 90,  "distance_m": 640,  "source": "ES Ch.10 Table 10.19"},
-    {"name": "Thornbar Farm",         "bearing_deg": 315, "distance_m": 680,  "source": "ES Ch.10 Table 10.19"},
-    {"name": "Clareton Village",      "bearing_deg": 225, "distance_m": 1040, "source": "ES Ch.10 Table 10.19"},
-    {"name": "Marton Cottage Farm",   "bearing_deg": 45,  "distance_m": 1760, "source": "ES Ch.10 Table 10.19"},
-    {"name": "Allerton Castle",       "bearing_deg": 135, "distance_m": 1920, "source": "ES Ch.10 Table 10.19"},
-    {"name": "Mickledale Farm",       "bearing_deg": 0,   "distance_m": 1810, "source": "ES Ch.10 Table 10.19"},
-    {"name": "Marton Moor Farm",      "bearing_deg": 0,   "distance_m": 1810, "source": "ES Ch.10 Table 10.19"}
+    {"name": "South Farm",            "bearing_deg": 0,   "distance_m": 410,  "lat": 54.036820, "lon": -1.382039, "coordinate_status": "derived from ES bearing/distance", "source": "ES Ch.10 Table 10.19"},
+    {"name": "Walls Close House",     "bearing_deg": 90,  "distance_m": 640,  "lat": 54.033133, "lon": -1.372239, "coordinate_status": "derived from ES bearing/distance", "source": "ES Ch.10 Table 10.19"},
+    {"name": "Thornbar Farm",         "bearing_deg": 315, "distance_m": 680,  "lat": 54.037457, "lon": -1.389402, "coordinate_status": "derived from ES bearing/distance", "source": "ES Ch.10 Table 10.19"},
+    {"name": "Clareton Village",      "bearing_deg": 225, "distance_m": 1040, "lat": 54.026519, "lon": -1.393298, "coordinate_status": "derived from ES bearing/distance", "source": "ES Ch.10 Table 10.19"},
+    {"name": "Marton Cottage Farm",   "bearing_deg": 45,  "distance_m": 1760, "lat": 54.044324, "lon": -1.362978, "coordinate_status": "derived from ES bearing/distance", "source": "ES Ch.10 Table 10.19"},
+    {"name": "Allerton Castle",       "bearing_deg": 135, "distance_m": 1920, "lat": 54.020922, "lon": -1.361256, "coordinate_status": "derived from ES bearing/distance", "source": "ES Ch.10 Table 10.19"},
+    {"name": "Mickledale Farm",       "bearing_deg": 0,   "distance_m": 1810, "lat": 54.049411, "lon": -1.382039, "coordinate_status": "derived from ES bearing/distance", "source": "ES Ch.10 Table 10.19", "note": "ES lists the same bearing/distance as Marton Moor Farm, so the two derived points coincide - check Table 10.19 for a transcription error."},
+    {"name": "Marton Moor Farm",      "bearing_deg": 0,   "distance_m": 1810, "lat": 54.049411, "lon": -1.382039, "coordinate_status": "derived from ES bearing/distance", "source": "ES Ch.10 Table 10.19", "note": "ES lists the same bearing/distance as Mickledale Farm, so the two derived points coincide - check Table 10.19 for a transcription error."}
   ],
 
   "_discrepancy_notes": {
