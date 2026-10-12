@@ -139,9 +139,10 @@ Each row has two independent sets of results:
   transcription error.
 
 **Cutover — read this before comparing old and new rows.** Rows in
-`wind_log.csv` logged before 2026-10-12 flagged these eight receptors
-using the ES bearings. Rows from then on use the verified coordinates, so
-the same wind can flag different receptors before and after. Over the 824
+`wind_log.csv` up to and including `2026-10-12T14:00` (UTC) flagged these
+eight receptors using the ES bearings. Rows from `2026-10-12T15:00`
+onwards use the verified coordinates, so the same wind can flag
+different receptors before and after. Over the 824
 usable 100m hours logged to that point, the flagged ES receptors would
 have differed in about 59% of hours. The earlier rows have not been
 rewritten, so the log stays a true record of what the script produced at
