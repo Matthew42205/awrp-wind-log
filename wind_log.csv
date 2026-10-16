@@ -934,3 +934,5 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-10-15T20:00,176,1.3,228,2.4,ukmo_uk_deterministic_2km,True,356,,48,Marton Cottage Farm (1.8km);Marton Moor Farm (1.8km);Great Ouseburn (4.6km)
 2026-10-15T21:00,198,0.9,254,1.8,ukmo_uk_deterministic_2km,True,18,,74,
 2026-10-15T22:00,344,0.8,358,1.5,ukmo_uk_deterministic_2km,True,164,,178,
+2026-10-15T23:00,288,1.4,330,1.8,ukmo_uk_deterministic_2km,True,108,,150,
+2026-10-16T00:00,340,1.6,350,3.4,ukmo_uk_deterministic_2km,True,160,,170,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
