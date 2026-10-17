@@ -975,3 +975,6 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-10-17T13:00,8,4.8,12,7.6,ukmo_uk_deterministic_2km,False,188,Flaxby (2.2km),192,Flaxby (2.2km)
 2026-10-17T14:00,26,4.6,26,7.3,ukmo_uk_deterministic_2km,False,206,Flaxby (2.2km),206,Flaxby (2.2km)
 2026-10-17T15:00,20,4.2,22,6.8,ukmo_uk_deterministic_2km,False,200,Flaxby (2.2km),202,Flaxby (2.2km)
+2026-10-17T16:00,20,3.1,22,6.1,ukmo_uk_deterministic_2km,False,200,Flaxby (2.2km),202,Flaxby (2.2km)
+2026-10-17T17:00,4,2.7,18,6.9,ukmo_uk_deterministic_2km,False,184,,198,Flaxby (2.2km)
+2026-10-17T18:00,348,2.3,12,5.8,ukmo_uk_deterministic_2km,False,168,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),192,Flaxby (2.2km)
