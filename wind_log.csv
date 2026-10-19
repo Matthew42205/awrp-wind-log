@@ -1008,3 +1008,8 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-10-18T22:00,342,4.1,358,8.9,ukmo_uk_deterministic_2km,False,162,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),178,Allerton Castle (1.9km)
 2026-10-18T23:00,342,4.9,352,10.0,ukmo_uk_deterministic_2km,False,162,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),172,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
 2026-10-19T00:00,352,5.3,360,10.6,ukmo_uk_deterministic_2km,False,172,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),180,
+2026-10-19T01:00,352,4.8,360,9.5,ukmo_uk_deterministic_2km,False,172,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),180,
+2026-10-19T02:00,358,4.8,10,9.1,ukmo_uk_deterministic_2km,False,178,Allerton Castle (1.9km),190,Flaxby (2.2km)
+2026-10-19T03:00,358,3.9,18,7.6,ukmo_uk_deterministic_2km,False,178,Allerton Castle (1.9km),198,Flaxby (2.2km)
+2026-10-19T04:00,28,5.3,36,10.2,ukmo_uk_deterministic_2km,False,208,Flaxby (2.2km),216,Coneythorpe (1.6km);Flaxby (2.2km)
+2026-10-19T05:00,28,4.4,40,9.3,ukmo_uk_deterministic_2km,False,208,Flaxby (2.2km),220,Coneythorpe (1.6km);Flaxby (2.2km)
