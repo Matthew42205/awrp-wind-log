@@ -1046,3 +1046,8 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-10-20T12:00,108,5.1,110,8.4,ukmo_uk_deterministic_2km,False,288,Arkendale (2.1km),290,Arkendale (2.1km)
 2026-10-20T13:00,104,5.1,106,8.5,ukmo_uk_deterministic_2km,False,284,Arkendale (2.1km),286,Arkendale (2.1km)
 2026-10-20T14:00,104,5.0,104,8.4,ukmo_uk_deterministic_2km,False,284,Arkendale (2.1km),284,Arkendale (2.1km)
+2026-10-20T15:00,98,4.3,100,7.3,ukmo_uk_deterministic_2km,False,278,,280,
+2026-10-20T16:00,98,3.6,102,6.5,ukmo_uk_deterministic_2km,False,278,,282,Arkendale (2.1km)
+2026-10-20T17:00,96,3.3,100,6.6,ukmo_uk_deterministic_2km,False,276,,280,
+2026-10-20T18:00,82,2.4,88,5.3,ukmo_uk_deterministic_2km,False,262,Clareton Village (1.2km);Knaresborough (6.2km),268,Clareton Village (1.2km)
+2026-10-20T19:00,58,2.6,72,5.4,ukmo_uk_deterministic_2km,False,238,Clareton Village (1.2km);Coneythorpe (1.6km);Knaresborough (6.2km),252,Clareton Village (1.2km);Coneythorpe (1.6km);Knaresborough (6.2km)
