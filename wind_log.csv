@@ -1051,3 +1051,6 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-10-20T17:00,96,3.3,100,6.6,ukmo_uk_deterministic_2km,False,276,,280,
 2026-10-20T18:00,82,2.4,88,5.3,ukmo_uk_deterministic_2km,False,262,Clareton Village (1.2km);Knaresborough (6.2km),268,Clareton Village (1.2km)
 2026-10-20T19:00,58,2.6,72,5.4,ukmo_uk_deterministic_2km,False,238,Clareton Village (1.2km);Coneythorpe (1.6km);Knaresborough (6.2km),252,Clareton Village (1.2km);Coneythorpe (1.6km);Knaresborough (6.2km)
+2026-10-20T20:00,92,2.3,94,4.8,ukmo_uk_deterministic_2km,False,272,,274,
+2026-10-20T21:00,112,1.9,126,4.2,ukmo_uk_deterministic_2km,True,292,,306,Arkendale (2.1km)
+2026-10-20T22:00,168,1.5,168,3.8,ukmo_uk_deterministic_2km,True,348,,348,South Farm (0.4km);Thornbar Farm (0.7km)
