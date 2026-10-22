@@ -1093,3 +1093,8 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-10-22T11:00,252,4.6,262,7.0,ukmo_uk_deterministic_2km,False,72,Little Ouseburn (4.1km);Great Ouseburn (4.6km),82,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
 2026-10-22T12:00,254,5.6,256,8.5,ukmo_uk_deterministic_2km,False,74,Little Ouseburn (4.1km);Great Ouseburn (4.6km),76,Little Ouseburn (4.1km);Great Ouseburn (4.6km)
 2026-10-22T13:00,258,4.8,258,7.4,ukmo_uk_deterministic_2km,False,78,Little Ouseburn (4.1km);Great Ouseburn (4.6km),78,Little Ouseburn (4.1km);Great Ouseburn (4.6km)
+2026-10-22T14:00,236,4.5,238,7.3,ukmo_uk_deterministic_2km,False,56,Marton Cottage Farm (1.8km);Marton Moor Farm (1.8km);Great Ouseburn (4.6km),58,Marton Cottage Farm (1.8km);Marton Moor Farm (1.8km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
+2026-10-22T15:00,238,4.1,238,6.6,ukmo_uk_deterministic_2km,False,58,Marton Cottage Farm (1.8km);Marton Moor Farm (1.8km);Little Ouseburn (4.1km);Great Ouseburn (4.6km),58,Marton Cottage Farm (1.8km);Marton Moor Farm (1.8km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
+2026-10-22T16:00,214,3.9,220,7.1,ukmo_uk_deterministic_2km,False,34,Marton Cottage Farm (1.8km);Mickledale Farm (1.8km);Marton Moor Farm (1.8km);Marton cum Grafton (3.3km),40,Marton Cottage Farm (1.8km);Mickledale Farm (1.8km);Marton Moor Farm (1.8km);Marton cum Grafton (3.3km)
+2026-10-22T17:00,182,1.9,204,5.0,ukmo_uk_deterministic_2km,True,2,,24,South Farm (0.4km);Mickledale Farm (1.8km);Marton Moor Farm (1.8km);Marton cum Grafton (3.3km)
+2026-10-22T18:00,158,2.3,174,4.4,ukmo_uk_deterministic_2km,False,338,Thornbar Farm (0.7km),354,South Farm (0.4km);Thornbar Farm (0.7km)
