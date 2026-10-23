@@ -1117,3 +1117,8 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-10-23T11:00,236,1.7,236,2.4,ukmo_uk_deterministic_2km,True,56,,56,Marton Cottage Farm (1.8km);Marton Moor Farm (1.8km);Great Ouseburn (4.6km)
 2026-10-23T12:00,182,1.1,198,1.5,ukmo_uk_deterministic_2km,True,2,,18,
 2026-10-23T13:00,274,2.5,278,5.6,ukmo_uk_deterministic_2km,False,94,Walls Close House (0.6km);Little Ouseburn (4.1km);Whixley (4.1km),98,Walls Close House (0.6km);Little Ouseburn (4.1km);Whixley (4.1km);Green Hammerton (6.0km)
+2026-10-23T14:00,266,6.0,268,9.6,ukmo_uk_deterministic_2km,False,86,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km),88,Walls Close House (0.6km);Little Ouseburn (4.1km)
+2026-10-23T15:00,294,6.9,300,11.5,ukmo_uk_deterministic_2km,False,114,Walls Close House (0.6km);Whixley (4.1km);Green Hammerton (6.0km),120,Walls Close House (0.6km);Whixley (4.1km);Green Hammerton (6.0km)
+2026-10-23T16:00,294,6.8,298,11.6,ukmo_uk_deterministic_2km,False,114,Walls Close House (0.6km);Whixley (4.1km);Green Hammerton (6.0km),118,Walls Close House (0.6km);Whixley (4.1km);Green Hammerton (6.0km)
+2026-10-23T17:00,304,8.6,304,14.7,ukmo_uk_deterministic_2km,False,124,Whixley (4.1km);Green Hammerton (6.0km),124,Whixley (4.1km);Green Hammerton (6.0km)
+2026-10-23T18:00,300,7.9,302,14.1,ukmo_uk_deterministic_2km,False,120,Walls Close House (0.6km);Whixley (4.1km);Green Hammerton (6.0km),122,Walls Close House (0.6km);Whixley (4.1km);Green Hammerton (6.0km)
