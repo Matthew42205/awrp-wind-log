@@ -1157,3 +1157,8 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-10-25T03:00,248,14.5,248,24.8,ukmo_uk_deterministic_2km,False,68,Marton Cottage Farm (1.8km);Little Ouseburn (4.1km);Great Ouseburn (4.6km),68,Marton Cottage Farm (1.8km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
 2026-10-25T04:00,250,14.8,250,25.4,ukmo_uk_deterministic_2km,False,70,Marton Cottage Farm (1.8km);Little Ouseburn (4.1km);Great Ouseburn (4.6km),70,Marton Cottage Farm (1.8km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
 2026-10-25T05:00,256,14.0,256,23.9,ukmo_uk_deterministic_2km,False,76,Little Ouseburn (4.1km);Great Ouseburn (4.6km),76,Little Ouseburn (4.1km);Great Ouseburn (4.6km)
+2026-10-25T06:00,258,12.6,260,21.6,ukmo_uk_deterministic_2km,False,78,Little Ouseburn (4.1km);Great Ouseburn (4.6km),80,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
+2026-10-25T07:00,258,13.9,260,24.2,ukmo_uk_deterministic_2km,False,78,Little Ouseburn (4.1km);Great Ouseburn (4.6km),80,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
+2026-10-25T08:00,262,14.3,262,24.6,ukmo_uk_deterministic_2km,False,82,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km),82,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
+2026-10-25T09:00,268,14.0,268,23.8,ukmo_uk_deterministic_2km,False,88,Walls Close House (0.6km);Little Ouseburn (4.1km),88,Walls Close House (0.6km);Little Ouseburn (4.1km)
+2026-10-25T10:00,270,13.0,270,21.8,ukmo_uk_deterministic_2km,False,90,Walls Close House (0.6km);Little Ouseburn (4.1km),90,Walls Close House (0.6km);Little Ouseburn (4.1km)
