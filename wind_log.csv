@@ -1192,3 +1192,8 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-10-26T14:00,170,7.5,174,13.3,ukmo_uk_deterministic_2km,False,350,South Farm (0.4km);Thornbar Farm (0.7km),354,South Farm (0.4km);Thornbar Farm (0.7km)
 2026-10-26T15:00,170,7.0,174,13.2,ukmo_uk_deterministic_2km,False,350,South Farm (0.4km);Thornbar Farm (0.7km),354,South Farm (0.4km);Thornbar Farm (0.7km)
 2026-10-26T16:00,166,6.2,172,11.6,ukmo_uk_deterministic_2km,False,346,South Farm (0.4km);Thornbar Farm (0.7km),352,South Farm (0.4km);Thornbar Farm (0.7km)
+2026-10-26T17:00,170,5.3,188,9.7,ukmo_uk_deterministic_2km,False,350,South Farm (0.4km);Thornbar Farm (0.7km),8,South Farm (0.4km);Thornbar Farm (0.7km);Mickledale Farm (1.8km);Marton cum Grafton (3.3km)
+2026-10-26T18:00,182,5.2,196,10.4,ukmo_uk_deterministic_2km,False,2,South Farm (0.4km);Thornbar Farm (0.7km);Marton cum Grafton (3.3km),16,South Farm (0.4km);Thornbar Farm (0.7km);Mickledale Farm (1.8km);Marton Moor Farm (1.8km);Marton cum Grafton (3.3km)
+2026-10-26T19:00,178,5.7,188,11.2,ukmo_uk_deterministic_2km,False,358,South Farm (0.4km);Thornbar Farm (0.7km),8,South Farm (0.4km);Thornbar Farm (0.7km);Mickledale Farm (1.8km);Marton cum Grafton (3.3km)
+2026-10-26T20:00,182,5.8,190,11.4,ukmo_uk_deterministic_2km,False,2,South Farm (0.4km);Thornbar Farm (0.7km);Marton cum Grafton (3.3km),10,South Farm (0.4km);Thornbar Farm (0.7km);Mickledale Farm (1.8km);Marton cum Grafton (3.3km)
+2026-10-26T21:00,162,4.6,178,9.6,ukmo_uk_deterministic_2km,False,342,Thornbar Farm (0.7km),358,South Farm (0.4km);Thornbar Farm (0.7km)
