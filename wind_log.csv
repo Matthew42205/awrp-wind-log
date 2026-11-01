@@ -1318,3 +1318,6 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-10-31T20:00,170,1.8,180,4.1,ukmo_uk_deterministic_2km,True,350,,0,South Farm (0.4km);Thornbar Farm (0.7km);Marton cum Grafton (3.3km)
 2026-10-31T21:00,264,1.8,252,2.8,ukmo_uk_deterministic_2km,True,84,,72,Little Ouseburn (4.1km);Great Ouseburn (4.6km)
 2026-10-31T22:00,240,2.4,260,4.3,ukmo_uk_deterministic_2km,False,60,Marton Cottage Farm (1.8km);Marton Moor Farm (1.8km);Little Ouseburn (4.1km);Great Ouseburn (4.6km),80,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
+2026-10-31T23:00,272,1.9,294,4.0,ukmo_uk_deterministic_2km,True,92,,114,Walls Close House (0.6km);Whixley (4.1km);Green Hammerton (6.0km)
+2026-11-01T00:00,304,1.7,348,1.9,ukmo_uk_deterministic_2km,True,124,,168,
+2026-11-01T01:00,298,1.8,330,2.1,ukmo_uk_deterministic_2km,True,118,,150,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
