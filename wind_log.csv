@@ -1340,3 +1340,7 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-11-01T18:00,354,3.3,2,7.8,ukmo_uk_deterministic_2km,False,174,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),182,
 2026-11-01T19:00,346,3.8,356,7.6,ukmo_uk_deterministic_2km,False,166,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),176,Allerton Castle (1.9km)
 2026-11-01T20:00,346,3.3,352,8.6,ukmo_uk_deterministic_2km,False,166,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),172,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-11-01T21:00,346,3.4,352,7.6,ukmo_uk_deterministic_2km,False,166,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),172,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-11-01T22:00,332,3.1,344,7.6,ukmo_uk_deterministic_2km,False,152,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),164,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-11-01T23:00,346,3.6,354,8.6,ukmo_uk_deterministic_2km,False,166,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),174,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-11-02T00:00,334,2.8,346,7.0,ukmo_uk_deterministic_2km,False,154,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),166,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
