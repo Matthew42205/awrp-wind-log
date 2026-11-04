@@ -1389,3 +1389,7 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-11-03T19:00,16,2.9,40,7.3,ukmo_uk_deterministic_2km,False,196,Flaxby (2.2km),220,Coneythorpe (1.6km);Flaxby (2.2km)
 2026-11-03T20:00,12,3.4,32,7.9,ukmo_uk_deterministic_2km,False,192,Flaxby (2.2km),212,Coneythorpe (1.6km);Flaxby (2.2km)
 2026-11-03T21:00,10,3.4,30,8.4,ukmo_uk_deterministic_2km,False,190,Flaxby (2.2km),210,Flaxby (2.2km)
+2026-11-03T22:00,16,3.0,28,6.9,ukmo_uk_deterministic_2km,False,196,Flaxby (2.2km),208,Flaxby (2.2km)
+2026-11-03T23:00,16,2.7,30,6.7,ukmo_uk_deterministic_2km,False,196,Flaxby (2.2km),210,Flaxby (2.2km)
+2026-11-04T00:00,8,2.8,36,6.3,ukmo_uk_deterministic_2km,False,188,Flaxby (2.2km),216,Coneythorpe (1.6km);Flaxby (2.2km)
+2026-11-04T01:00,358,2.7,30,6.1,ukmo_uk_deterministic_2km,False,178,Allerton Castle (1.9km),210,Flaxby (2.2km)
