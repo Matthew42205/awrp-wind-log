@@ -1414,3 +1414,8 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-11-04T20:00,22,2.5,52,7.1,ukmo_uk_deterministic_2km,False,202,Flaxby (2.2km),232,Clareton Village (1.2km);Coneythorpe (1.6km);Knaresborough (6.2km)
 2026-11-04T21:00,18,2.4,46,6.9,ukmo_uk_deterministic_2km,False,198,Flaxby (2.2km),226,Clareton Village (1.2km);Coneythorpe (1.6km);Flaxby (2.2km);Knaresborough (6.2km)
 2026-11-04T22:00,12,2.9,38,7.2,ukmo_uk_deterministic_2km,False,192,Flaxby (2.2km),218,Coneythorpe (1.6km);Flaxby (2.2km)
+2026-11-04T23:00,20,3.1,42,7.6,ukmo_uk_deterministic_2km,False,200,Flaxby (2.2km),222,Coneythorpe (1.6km);Flaxby (2.2km);Knaresborough (6.2km)
+2026-11-05T00:00,24,3.1,46,7.8,ukmo_uk_deterministic_2km,False,204,Flaxby (2.2km),226,Clareton Village (1.2km);Coneythorpe (1.6km);Flaxby (2.2km);Knaresborough (6.2km)
+2026-11-05T01:00,16,3.1,40,7.4,ukmo_uk_deterministic_2km,False,196,Flaxby (2.2km),220,Coneythorpe (1.6km);Flaxby (2.2km)
+2026-11-05T02:00,30,3.3,42,7.7,ukmo_uk_deterministic_2km,False,210,Flaxby (2.2km),222,Coneythorpe (1.6km);Flaxby (2.2km);Knaresborough (6.2km)
+2026-11-05T03:00,46,3.4,56,7.3,ukmo_uk_deterministic_2km,False,226,Clareton Village (1.2km);Coneythorpe (1.6km);Flaxby (2.2km);Knaresborough (6.2km),236,Clareton Village (1.2km);Coneythorpe (1.6km);Knaresborough (6.2km)
