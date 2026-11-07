@@ -1483,3 +1483,7 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-11-07T17:00,332,1.4,338,3.0,ukmo_uk_deterministic_2km,True,152,,158,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
 2026-11-07T18:00,314,1.3,330,2.8,ukmo_uk_deterministic_2km,True,134,,150,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
 2026-11-07T19:00,292,1.5,310,2.9,ukmo_uk_deterministic_2km,True,112,,130,Hopperton (3.3km);Whixley (4.1km);Green Hammerton (6.0km)
+2026-11-07T20:00,340,1.9,356,3.6,ukmo_uk_deterministic_2km,True,160,,176,Allerton Castle (1.9km)
+2026-11-07T21:00,338,1.4,4,2.3,ukmo_uk_deterministic_2km,True,158,,184,
+2026-11-07T22:00,352,1.4,10,2.4,ukmo_uk_deterministic_2km,True,172,,190,Flaxby (2.2km)
+2026-11-07T23:00,12,1.8,26,3.0,ukmo_uk_deterministic_2km,True,192,,206,Flaxby (2.2km)
