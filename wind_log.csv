@@ -1576,3 +1576,10 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-11-11T14:00,344,3.1,348,4.3,ukmo_uk_deterministic_2km,False,164,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),168,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
 2026-11-11T15:00,344,2.1,346,4.2,ukmo_uk_deterministic_2km,False,164,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),166,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
 2026-11-11T16:00,334,2.3,346,5.1,ukmo_uk_deterministic_2km,False,154,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),166,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-11-11T17:00,356,1.6,354,3.1,ukmo_uk_deterministic_2km,True,176,,174,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-11-11T18:00,320,0.9,336,1.6,ukmo_uk_deterministic_2km,True,140,,156,
+2026-11-11T19:00,264,2.8,264,4.8,ukmo_uk_deterministic_2km,False,84,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km),84,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
+2026-11-11T20:00,268,3.1,278,7.4,ukmo_uk_deterministic_2km,False,88,Walls Close House (0.6km);Little Ouseburn (4.1km),98,Walls Close House (0.6km);Little Ouseburn (4.1km);Whixley (4.1km);Green Hammerton (6.0km)
+2026-11-11T21:00,292,2.1,306,4.6,ukmo_uk_deterministic_2km,False,112,Walls Close House (0.6km);Whixley (4.1km);Green Hammerton (6.0km),126,Whixley (4.1km);Green Hammerton (6.0km)
+2026-11-11T22:00,292,1.8,326,4.8,ukmo_uk_deterministic_2km,True,112,,146,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-11-11T23:00,284,1.4,322,4.5,ukmo_uk_deterministic_2km,True,104,,142,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
