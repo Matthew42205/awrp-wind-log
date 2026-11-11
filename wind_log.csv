@@ -1556,3 +1556,8 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-11-10T18:00,2,1.8,74,4.9,ukmo_uk_deterministic_2km,True,182,,254,Clareton Village (1.2km);Coneythorpe (1.6km);Knaresborough (6.2km)
 2026-11-10T19:00,24,1.9,66,6.1,ukmo_uk_deterministic_2km,True,204,,246,Clareton Village (1.2km);Coneythorpe (1.6km);Knaresborough (6.2km)
 2026-11-10T20:00,24,1.9,66,6.3,ukmo_uk_deterministic_2km,True,204,,246,Clareton Village (1.2km);Coneythorpe (1.6km);Knaresborough (6.2km)
+2026-11-10T21:00,32,2.1,64,6.8,ukmo_uk_deterministic_2km,False,212,Coneythorpe (1.6km);Flaxby (2.2km),244,Clareton Village (1.2km);Coneythorpe (1.6km);Knaresborough (6.2km)
+2026-11-10T22:00,340,2.0,56,4.7,ukmo_uk_deterministic_2km,False,160,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),236,Clareton Village (1.2km);Coneythorpe (1.6km);Knaresborough (6.2km)
+2026-11-10T23:00,336,2.3,46,4.7,ukmo_uk_deterministic_2km,False,156,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),226,Clareton Village (1.2km);Coneythorpe (1.6km);Flaxby (2.2km);Knaresborough (6.2km)
+2026-11-11T00:00,342,2.6,26,5.1,ukmo_uk_deterministic_2km,False,162,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),206,Flaxby (2.2km)
+2026-11-11T01:00,342,2.4,24,5.6,ukmo_uk_deterministic_2km,False,162,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),204,Flaxby (2.2km)
