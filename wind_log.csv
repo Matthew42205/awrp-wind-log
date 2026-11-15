@@ -1675,3 +1675,7 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-11-15T17:00,152,1.1,206,2.4,ukmo_uk_deterministic_2km,True,332,,26,South Farm (0.4km);Marton Cottage Farm (1.8km);Mickledale Farm (1.8km);Marton Moor Farm (1.8km);Marton cum Grafton (3.3km)
 2026-11-15T18:00,296,0.8,282,2.7,ukmo_uk_deterministic_2km,True,116,,102,Walls Close House (0.6km);Whixley (4.1km);Green Hammerton (6.0km)
 2026-11-15T19:00,306,1.5,310,4.1,ukmo_uk_deterministic_2km,True,126,,130,Hopperton (3.3km);Whixley (4.1km);Green Hammerton (6.0km)
+2026-11-15T20:00,300,1.9,304,5.8,ukmo_uk_deterministic_2km,True,120,,124,Whixley (4.1km);Green Hammerton (6.0km)
+2026-11-15T21:00,314,2.9,320,8.3,ukmo_uk_deterministic_2km,False,134,Allerton Mauleverer (2.1km);Hopperton (3.3km);Whixley (4.1km);Green Hammerton (6.0km),140,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km);Green Hammerton (6.0km)
+2026-11-15T22:00,318,4.4,324,8.8,ukmo_uk_deterministic_2km,False,138,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km);Whixley (4.1km);Green Hammerton (6.0km),144,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-11-15T23:00,320,5.0,326,9.6,ukmo_uk_deterministic_2km,False,140,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km);Green Hammerton (6.0km),146,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
