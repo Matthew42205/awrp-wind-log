@@ -1759,3 +1759,13 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-11-19T05:00,360,2.8,2,4.9,ukmo_uk_deterministic_2km,False,180,,182,
 2026-11-19T06:00,338,2.4,346,4.5,ukmo_uk_deterministic_2km,False,158,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),166,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
 2026-11-19T07:00,330,2.5,348,5.6,ukmo_uk_deterministic_2km,False,150,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),168,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-11-19T08:00,30,4.5,42,8.6,ukmo_uk_deterministic_2km,False,210,Flaxby (2.2km),222,Coneythorpe (1.6km);Flaxby (2.2km);Knaresborough (6.2km)
+2026-11-19T09:00,32,5.4,40,9.9,ukmo_uk_deterministic_2km,False,212,Coneythorpe (1.6km);Flaxby (2.2km),220,Coneythorpe (1.6km);Flaxby (2.2km)
+2026-11-19T10:00,24,5.3,32,9.6,ukmo_uk_deterministic_2km,False,204,Flaxby (2.2km),212,Coneythorpe (1.6km);Flaxby (2.2km)
+2026-11-19T11:00,20,3.9,28,6.9,ukmo_uk_deterministic_2km,False,200,Flaxby (2.2km),208,Flaxby (2.2km)
+2026-11-19T12:00,14,3.6,22,6.4,ukmo_uk_deterministic_2km,False,194,Flaxby (2.2km),202,Flaxby (2.2km)
+2026-11-19T13:00,20,4.1,28,7.6,ukmo_uk_deterministic_2km,False,200,Flaxby (2.2km),208,Flaxby (2.2km)
+2026-11-19T14:00,16,4.3,22,7.9,ukmo_uk_deterministic_2km,False,196,Flaxby (2.2km),202,Flaxby (2.2km)
+2026-11-19T15:00,16,3.5,26,7.2,ukmo_uk_deterministic_2km,False,196,Flaxby (2.2km),206,Flaxby (2.2km)
+2026-11-19T16:00,8,3.8,16,7.9,ukmo_uk_deterministic_2km,False,188,Flaxby (2.2km),196,Flaxby (2.2km)
+2026-11-19T17:00,4,3.3,16,7.5,ukmo_uk_deterministic_2km,False,184,,196,Flaxby (2.2km)
