@@ -1784,3 +1784,12 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-11-20T06:00,336,2.9,2,7.2,ukmo_uk_deterministic_2km,False,156,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),182,
 2026-11-20T07:00,326,2.4,354,6.8,ukmo_uk_deterministic_2km,False,146,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),174,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
 2026-11-20T08:00,322,2.7,350,7.1,ukmo_uk_deterministic_2km,False,142,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),170,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-11-20T09:00,330,2.8,348,7.4,ukmo_uk_deterministic_2km,False,150,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),168,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-11-20T10:00,338,3.1,348,7.3,ukmo_uk_deterministic_2km,False,158,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),168,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-11-20T11:00,330,3.4,334,5.4,ukmo_uk_deterministic_2km,False,150,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),154,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-11-20T12:00,330,3.4,334,5.2,ukmo_uk_deterministic_2km,False,150,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),154,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-11-20T13:00,338,3.4,340,5.3,ukmo_uk_deterministic_2km,False,158,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),160,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-11-20T14:00,334,2.4,340,4.4,ukmo_uk_deterministic_2km,False,154,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km),160,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-11-20T15:00,314,1.2,340,3.3,ukmo_uk_deterministic_2km,True,134,,160,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-11-20T16:00,304,1.5,338,3.2,ukmo_uk_deterministic_2km,True,124,,158,Allerton Castle (1.9km);Allerton Mauleverer (2.1km);Hopperton (3.3km)
+2026-11-20T17:00,274,2.2,314,3.1,ukmo_uk_deterministic_2km,False,94,Walls Close House (0.6km);Little Ouseburn (4.1km);Whixley (4.1km),134,Allerton Mauleverer (2.1km);Hopperton (3.3km);Whixley (4.1km);Green Hammerton (6.0km)
