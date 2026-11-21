@@ -1806,3 +1806,12 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-11-21T04:00,246,1.8,260,3.1,ukmo_uk_deterministic_2km,True,66,,80,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km)
 2026-11-21T05:00,236,2.1,256,4.3,ukmo_uk_deterministic_2km,False,56,Marton Cottage Farm (1.8km);Marton Moor Farm (1.8km);Great Ouseburn (4.6km),76,Little Ouseburn (4.1km);Great Ouseburn (4.6km)
 2026-11-21T06:00,262,2.1,272,2.9,ukmo_uk_deterministic_2km,False,82,Walls Close House (0.6km);Little Ouseburn (4.1km);Great Ouseburn (4.6km),92,Walls Close House (0.6km);Little Ouseburn (4.1km)
+2026-11-21T07:00,270,1.1,274,1.5,ukmo_uk_deterministic_2km,True,90,,94,
+2026-11-21T08:00,238,1.5,260,0.7,ukmo_uk_deterministic_2km,True,58,,80,
+2026-11-21T09:00,214,1.1,222,1.0,ukmo_uk_deterministic_2km,True,34,,42,
+2026-11-21T10:00,238,0.7,266,0.9,ukmo_uk_deterministic_2km,True,58,,86,
+2026-11-21T11:00,104,0.9,264,1.5,ukmo_uk_deterministic_2km,True,284,,84,
+2026-11-21T12:00,108,0.6,188,0.3,ukmo_uk_deterministic_2km,True,288,,8,
+2026-11-21T13:00,138,0.4,178,0.8,ukmo_uk_deterministic_2km,True,318,,358,
+2026-11-21T14:00,74,1.1,110,0.9,ukmo_uk_deterministic_2km,True,254,,290,
+2026-11-21T15:00,62,1.5,74,2.1,ukmo_uk_deterministic_2km,True,242,,254,Clareton Village (1.2km);Coneythorpe (1.6km);Knaresborough (6.2km)
