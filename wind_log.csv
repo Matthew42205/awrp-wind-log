@@ -1815,3 +1815,9 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-11-21T13:00,138,0.4,178,0.8,ukmo_uk_deterministic_2km,True,318,,358,
 2026-11-21T14:00,74,1.1,110,0.9,ukmo_uk_deterministic_2km,True,254,,290,
 2026-11-21T15:00,62,1.5,74,2.1,ukmo_uk_deterministic_2km,True,242,,254,Clareton Village (1.2km);Coneythorpe (1.6km);Knaresborough (6.2km)
+2026-11-21T16:00,64,1.3,98,2.5,ukmo_uk_deterministic_2km,True,244,,278,
+2026-11-21T17:00,148,0.3,108,2.6,ukmo_uk_deterministic_2km,True,328,,288,Arkendale (2.1km)
+2026-11-21T18:00,24,0.9,106,2.5,ukmo_uk_deterministic_2km,True,204,,286,Arkendale (2.1km)
+2026-11-21T19:00,348,1.4,80,2.8,ukmo_uk_deterministic_2km,True,168,,260,Clareton Village (1.2km);Knaresborough (6.2km)
+2026-11-21T20:00,360,2.2,48,3.8,ukmo_uk_deterministic_2km,False,180,,228,Clareton Village (1.2km);Coneythorpe (1.6km);Flaxby (2.2km);Knaresborough (6.2km)
+2026-11-21T21:00,356,2.1,58,4.6,ukmo_uk_deterministic_2km,False,176,Allerton Castle (1.9km),238,Clareton Village (1.2km);Coneythorpe (1.6km);Knaresborough (6.2km)
