@@ -1876,3 +1876,14 @@ timestamp_utc,wind_from_deg_10m,wind_speed_ms_10m,wind_from_deg_100m,wind_speed_
 2026-11-24T02:00,140,3.9,146,8.0,ukmo_uk_deterministic_2km,False,320,Arkendale (2.1km),326,Arkendale (2.1km)
 2026-11-24T03:00,144,4.1,148,8.3,ukmo_uk_deterministic_2km,False,324,Arkendale (2.1km),328,
 2026-11-24T04:00,148,4.6,150,8.9,ukmo_uk_deterministic_2km,False,328,,330,
+2026-11-24T05:00,142,4.5,146,8.6,ukmo_uk_deterministic_2km,False,322,Arkendale (2.1km),326,Arkendale (2.1km)
+2026-11-24T06:00,138,4.1,142,8.1,ukmo_uk_deterministic_2km,False,318,Arkendale (2.1km),322,Arkendale (2.1km)
+2026-11-24T07:00,128,4.4,132,8.4,ukmo_uk_deterministic_2km,False,308,Arkendale (2.1km),312,Arkendale (2.1km)
+2026-11-24T08:00,134,4.8,136,9.1,ukmo_uk_deterministic_2km,False,314,Arkendale (2.1km),316,Arkendale (2.1km)
+2026-11-24T09:00,140,5.3,142,9.6,ukmo_uk_deterministic_2km,False,320,Arkendale (2.1km),322,Arkendale (2.1km)
+2026-11-24T10:00,138,5.1,140,8.8,ukmo_uk_deterministic_2km,False,318,Arkendale (2.1km),320,Arkendale (2.1km)
+2026-11-24T11:00,134,6.3,136,10.2,ukmo_uk_deterministic_2km,False,314,Arkendale (2.1km),316,Arkendale (2.1km)
+2026-11-24T12:00,134,6.1,136,10.2,ukmo_uk_deterministic_2km,False,314,Arkendale (2.1km),316,Arkendale (2.1km)
+2026-11-24T13:00,136,6.4,138,10.7,ukmo_uk_deterministic_2km,False,316,Arkendale (2.1km),318,Arkendale (2.1km)
+2026-11-24T14:00,140,5.7,140,9.8,ukmo_uk_deterministic_2km,False,320,Arkendale (2.1km),320,Arkendale (2.1km)
+2026-11-24T15:00,140,5.3,140,9.6,ukmo_uk_deterministic_2km,False,320,Arkendale (2.1km),320,Arkendale (2.1km)
